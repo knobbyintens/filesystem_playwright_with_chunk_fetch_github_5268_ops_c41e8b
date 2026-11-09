@@ -1,0 +1,640 @@
+{
+  "export_name": "Meridian Metropolitan Transit route register",
+  "export_version": "2026.11.01",
+  "generated_at": "2026-11-01T02:00:00Z",
+  "line_order": [
+    "CL",
+    "CT",
+    "CR",
+    "HB"
+  ],
+  "lines": {
+    "CL": {
+      "name": "Copper Line",
+      "colour": "copper",
+      "station_count": 16,
+      "orientation": "Sequence numbers increase towards the east; Eastbound services travel from lower to higher sequence numbers and Westbound services travel from higher to lower numbers. The Silverbirch spur is numbered after Kestrel Park.",
+      "service_pattern": "Six trains per hour in each direction on the trunk; a shuttle service operates on the Silverbirch spur."
+    },
+    "CT": {
+      "name": "Central Line",
+      "colour": "maroon",
+      "station_count": 15,
+      "orientation": "Sequence numbers increase from south to north.",
+      "service_pattern": "Eight trains per hour in each direction."
+    },
+    "CR": {
+      "name": "Circle Line",
+      "colour": "green",
+      "station_count": 12,
+      "orientation": "Circular line; sequence numbers run clockwise.",
+      "service_pattern": "Continuous clockwise and anti-clockwise service."
+    },
+    "HB": {
+      "name": "Harbour Line",
+      "colour": "blue",
+      "station_count": 9,
+      "orientation": "Sequence numbers increase from the inner harbour towards the coast.",
+      "service_pattern": "Four trains per hour in each direction."
+    }
+  },
+  "stations": [
+    {
+      "station": "Alder Wharf",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL01",
+      "sequence": 1,
+      "prev": null,
+      "next": "Bramble Field",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Bramble Field",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL02",
+      "sequence": 2,
+      "prev": "Alder Wharf",
+      "next": "Copper Yard",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Copper Yard",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL03",
+      "sequence": 3,
+      "prev": "Bramble Field",
+      "next": "Dray Common",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Dray Common",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL04",
+      "sequence": 4,
+      "prev": "Copper Yard",
+      "next": "Ember Row",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Ember Row",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL05",
+      "sequence": 5,
+      "prev": "Dray Common",
+      "next": "Foundry Gate",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Foundry Gate",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL06",
+      "sequence": 6,
+      "prev": "Ember Row",
+      "next": "Guildhall Cross",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Guildhall Cross",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL07",
+      "sequence": 7,
+      "prev": "Foundry Gate",
+      "next": "Harrow Bridge",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Harrow Bridge",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL08",
+      "sequence": 8,
+      "prev": "Guildhall Cross",
+      "next": "Ironmarket",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Ironmarket",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL09",
+      "sequence": 9,
+      "prev": "Harrow Bridge",
+      "next": "Jewelfield",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Jewelfield",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL10",
+      "sequence": 10,
+      "prev": "Ironmarket",
+      "next": "Kestrel Park",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Kestrel Park",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL11",
+      "sequence": 11,
+      "prev": "Jewelfield",
+      "next": "Larchmont",
+      "section": "trunk",
+      "interchanges": [],
+      "branch": {
+        "name": "Silverbirch spur",
+        "next": "Silverbirch Vale",
+        "code": "CL21"
+      }
+    },
+    {
+      "station": "Larchmont",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL12",
+      "sequence": 12,
+      "prev": "Kestrel Park",
+      "next": "Marlow Reach",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Marlow Reach",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL13",
+      "sequence": 13,
+      "prev": "Larchmont",
+      "next": "Northgate Depot",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Northgate Depot",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL14",
+      "sequence": 14,
+      "prev": "Marlow Reach",
+      "next": "Opal Gardens",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Opal Gardens",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL15",
+      "sequence": 15,
+      "prev": "Northgate Depot",
+      "next": null,
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Silverbirch Vale",
+      "line": "CL",
+      "line_name": "Copper Line",
+      "code": "CL21",
+      "sequence": 21,
+      "prev": "Kestrel Park",
+      "next": null,
+      "section": "spur",
+      "interchanges": [],
+      "branch": {
+        "name": "Silverbirch spur",
+        "prev": "Kestrel Park"
+      }
+    },
+    {
+      "station": "Oakhaven",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT01",
+      "sequence": 1,
+      "prev": null,
+      "next": "Bellwether",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Bellwether",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT02",
+      "sequence": 2,
+      "prev": "Oakhaven",
+      "next": "Calloway",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Calloway",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT03",
+      "sequence": 3,
+      "prev": "Bellwether",
+      "next": "Dappleford",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Dappleford",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT04",
+      "sequence": 4,
+      "prev": "Calloway",
+      "next": "Elder Grove",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Elder Grove",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT05",
+      "sequence": 5,
+      "prev": "Dappleford",
+      "next": "Fairholm",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Fairholm",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT06",
+      "sequence": 6,
+      "prev": "Elder Grove",
+      "next": "Gable End",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Gable End",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT07",
+      "sequence": 7,
+      "prev": "Fairholm",
+      "next": "Hyssop Hill",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Hyssop Hill",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT08",
+      "sequence": 8,
+      "prev": "Gable End",
+      "next": "Ivory Court",
+      "section": "trunk",
+      "interchanges": [
+        "HB"
+      ]
+    },
+    {
+      "station": "Ivory Court",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT09",
+      "sequence": 9,
+      "prev": "Hyssop Hill",
+      "next": "Juniper Bank",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Juniper Bank",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT10",
+      "sequence": 10,
+      "prev": "Ivory Court",
+      "next": "Larkfield",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Larkfield",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT11",
+      "sequence": 11,
+      "prev": "Juniper Bank",
+      "next": "Larkspur Junction",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Larkspur Junction",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT12",
+      "sequence": 12,
+      "prev": "Larkfield",
+      "next": "Mintwater",
+      "section": "trunk",
+      "interchanges": [
+        "CR"
+      ]
+    },
+    {
+      "station": "Mintwater",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT13",
+      "sequence": 13,
+      "prev": "Larkspur Junction",
+      "next": "Nettleford",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Nettleford",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT14",
+      "sequence": 14,
+      "prev": "Mintwater",
+      "next": "Orchard Vale",
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Orchard Vale",
+      "line": "CT",
+      "line_name": "Central Line",
+      "code": "CT15",
+      "sequence": 15,
+      "prev": "Nettleford",
+      "next": null,
+      "section": "trunk",
+      "interchanges": []
+    },
+    {
+      "station": "Ferngrove",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR01",
+      "sequence": 1,
+      "prev": null,
+      "next": "Willowmere",
+      "section": "loop",
+      "interchanges": []
+    },
+    {
+      "station": "Willowmere",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR02",
+      "sequence": 2,
+      "prev": "Ferngrove",
+      "next": "Cindercourt",
+      "section": "loop",
+      "interchanges": []
+    },
+    {
+      "station": "Cindercourt",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR03",
+      "sequence": 3,
+      "prev": "Willowmere",
+      "next": "Beacon Quay",
+      "section": "loop",
+      "interchanges": []
+    },
+    {
+      "station": "Beacon Quay",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR04",
+      "sequence": 4,
+      "prev": "Cindercourt",
+      "next": "Saltmarsh",
+      "section": "loop",
+      "interchanges": [
+        "HB"
+      ]
+    },
+    {
+      "station": "Saltmarsh",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR05",
+      "sequence": 5,
+      "prev": "Beacon Quay",
+      "next": "Tanners Row",
+      "section": "loop",
+      "interchanges": []
+    },
+    {
+      "station": "Tanners Row",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR06",
+      "sequence": 6,
+      "prev": "Saltmarsh",
+      "next": "Millpond",
+      "section": "loop",
+      "interchanges": []
+    },
+    {
+      "station": "Millpond",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR07",
+      "sequence": 7,
+      "prev": "Tanners Row",
+      "next": "Verity Square",
+      "section": "loop",
+      "interchanges": []
+    },
+    {
+      "station": "Verity Square",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR08",
+      "sequence": 8,
+      "prev": "Millpond",
+      "next": "Kingsfold",
+      "section": "loop",
+      "interchanges": []
+    },
+    {
+      "station": "Kingsfold",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR09",
+      "sequence": 9,
+      "prev": "Verity Square",
+      "next": "Elmhurst",
+      "section": "loop",
+      "interchanges": [
+        "CT"
+      ]
+    },
+    {
+      "station": "Elmhurst",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR10",
+      "sequence": 10,
+      "prev": "Kingsfold",
+      "next": "Rookery Lane",
+      "section": "loop",
+      "interchanges": []
+    },
+    {
+      "station": "Rookery Lane",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR11",
+      "sequence": 11,
+      "prev": "Elmhurst",
+      "next": "Peddler's Green",
+      "section": "loop",
+      "interchanges": []
+    },
+    {
+      "station": "Peddler's Green",
+      "line": "CR",
+      "line_name": "Circle Line",
+      "code": "CR12",
+      "sequence": 12,
+      "prev": "Rookery Lane",
+      "next": null,
+      "section": "loop",
+      "interchanges": []
+    },
+    {
+      "station": "Wexford Pier",
+      "line": "HB",
+      "line_name": "Harbour Line",
+      "code": "HB01",
+      "sequence": 1,
+      "prev": null,
+      "next": "Coble Street",
+      "section": "coastal",
+      "interchanges": []
+    },
+    {
+      "station": "Coble Street",
+      "line": "HB",
+      "line_name": "Harbour Line",
+      "code": "HB02",
+      "sequence": 2,
+      "prev": "Wexford Pier",
+      "next": "Shipwright Row",
+      "section": "coastal",
+      "interchanges": []
+    },
+    {
+      "station": "Shipwright Row",
+      "line": "HB",
+      "line_name": "Harbour Line",
+      "code": "HB03",
+      "sequence": 3,
+      "prev": "Coble Street",
+      "next": "Anchorhead",
+      "section": "coastal",
+      "interchanges": []
+    },
+    {
+      "station": "Anchorhead",
+      "line": "HB",
+      "line_name": "Harbour Line",
+      "code": "HB04",
+      "sequence": 4,
+      "prev": "Shipwright Row",
+      "next": "Tidemill",
+      "section": "coastal",
+      "interchanges": [
+        "CR"
+      ]
+    },
+    {
+      "station": "Tidemill",
+      "line": "HB",
+      "line_name": "Harbour Line",
+      "code": "HB05",
+      "sequence": 5,
+      "prev": "Anchorhead",
+      "next": "Saltworks",
+      "section": "coastal",
+      "interchanges": []
+    },
+    {
+      "station": "Saltworks",
+      "line": "HB",
+      "line_name": "Harbour Line",
+      "code": "HB06",
+      "sequence": 6,
+      "prev": "Tidemill",
+      "next": "Gulls Nest",
+      "section": "coastal",
+      "interchanges": []
+    },
+    {
+      "station": "Gulls Nest",
+      "line": "HB",
+      "line_name": "Harbour Line",
+      "code": "HB07",
+      "sequence": 7,
+      "prev": "Saltworks",
+      "next": "Breakwater",
+      "section": "coastal",
+      "interchanges": []
+    },
+    {
+      "station": "Breakwater",
+      "line": "HB",
+      "line_name": "Harbour Line",
+      "code": "HB08",
+      "sequence": 8,
+      "prev": "Gulls Nest",
+      "next": "Cove Point",
+      "section": "coastal",
+      "interchanges": []
+    },
+    {
+      "station": "Cove Point",
+      "line": "HB",
+      "line_name": "Harbour Line",
+      "code": "HB09",
+      "sequence": 9,
+      "prev": "Breakwater",
+      "next": null,
+      "section": "coastal",
+      "interchanges": []
+    }
+  ],
+  "notes": [
+    "Sequence numbers are the authoritative order used by the line controller.",
+    "Eastbound Copper Line services travel from low to high sequence numbers; Westbound services travel from high to low sequence numbers.",
+    "Silverbirch Vale is the terminal of the one-stop Silverbirch spur from Kestrel Park and carries sequence CL21.",
+    "Interchange lists indicate walking connections only. A station is served only by the line shown in the 'line' field."
+  ]
+}
