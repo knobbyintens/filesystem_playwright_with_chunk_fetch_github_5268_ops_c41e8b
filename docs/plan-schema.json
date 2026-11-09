@@ -1,0 +1,52 @@
+{
+  "title": "Copper Line weekend possession plan",
+  "type": "object",
+  "required": [
+    "line",
+    "weekend",
+    "orders"
+  ],
+  "properties": {
+    "line": {
+      "type": "string",
+      "example": "Copper Line (CL)"
+    },
+    "weekend": {
+      "type": "string",
+      "example": "2026-11-14/15"
+    },
+    "orders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "order_id",
+          "decision",
+          "station_sequence",
+          "reason"
+        ],
+        "properties": {
+          "order_id": {
+            "type": "string"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "approved",
+              "rejected"
+            ]
+          },
+          "station_sequence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
